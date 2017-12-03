@@ -1,0 +1,54 @@
+body{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	line-height: 1.5;
+}
+
+.wrapper{
+	width: 95%;
+	margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  float: left;
+  margin-top: 3.5%;
+}
+
+img {
+  max-width: 90%;
+    transition: transform 1.5s ease-in;
+}
+
+img:hover {
+    transform: scale(1.5) rotate(360deg);
+    z-index: 15;
+}
+
+@media screen and (min-width: 600px) {
+  li {
+    width: 50%;
+  }
+  
+}
+
+@media screen and (min-width: 1200px) {
+  li {
+    width: 25%;
+  }
+  
+}
+
+footer {
+    clear: both;
+}
+
+
